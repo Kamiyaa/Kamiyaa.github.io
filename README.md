@@ -1,2 +1,2 @@
-# website-wasm
-My personal website written in rust via yew/wasm
+# My personal website
+[kamiyaa.github.io](https://kamiyaa.github.io/)
