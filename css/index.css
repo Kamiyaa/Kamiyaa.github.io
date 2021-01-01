@@ -211,11 +211,16 @@ background: linear-gradient(90deg, rgba(255,225,112,1) 5%, rgba(121,9,89,1) 95%)
     /* opacity: 0.85; */ }
 
 .flex_card_img_container {
-  width: 100%; }
-  .flex_card_img_container img {
+  width: 100%;
+  max-height: 180px;
+  overflow: hidden; }
+
+.flex_card_img {
+  display: flex;
+  justify-content: center; }
+  .flex_card_img img {
     background-size: cover;
     width: 100%;
-    height: 100%;
     margin: 0;
     padding: 0; }
 
@@ -249,7 +254,7 @@ background: linear-gradient(90deg, rgba(255,225,112,1) 5%, rgba(121,9,89,1) 95%)
   color: white;
   flex: 1;
   flex-basis: 30%;
-  padding: 0 0.6rem 0.3rem 0.6rem; }
+  padding: 0.4rem 0.6rem 0.3rem 0.6rem; }
 
 .horizontal_card {
   background-color: #2b2c2f;
