@@ -190,23 +190,23 @@ background: linear-gradient(90deg, rgba(255,225,112,1) 5%, rgba(121,9,89,1) 95%)
     color: #a0c5e7;
     text-decoration: none; }
   .flex_card h3 {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: bold;
     margin: 0.3rem 0 0.3rem 0; }
   .flex_card h4 {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
     margin: 0.3rem 0 0.3rem 0; }
   .flex_card h5 {
     font-weight: normal;
-    font-size: 18px;
+    font-size: 20px;
     margin: 0.3rem 0 0.3rem 0; }
   .flex_card h6 {
     font-weight: normal;
-    font-size: 16px;
+    font-size: 18px;
     margin: 0.3rem 0 0.3rem 0; }
   .flex_card p {
-    font-size: 16px;
+    font-size: 18px;
     color: #aaa;
     margin: 0.3rem 0 0.3rem 0; }
   .flex_card:hover {
@@ -229,9 +229,17 @@ background: linear-gradient(90deg, rgba(255,225,112,1) 5%, rgba(121,9,89,1) 95%)
       font-size: 20px;
       font-weight: bold;
       margin: 0.3rem 0 0.3rem 0; }
+    .flex_card h4 {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 0.3rem 0 0.3rem 0; }
     .flex_card h5 {
       font-weight: normal;
       font-size: 16px;
+      margin: 0.3rem 0 0.3rem 0; }
+    .flex_card h6 {
+      font-weight: normal;
+      font-size: 14px;
       margin: 0.3rem 0 0.3rem 0; }
     .flex_card p {
       font-size: 14px;
@@ -254,27 +262,27 @@ background: linear-gradient(90deg, rgba(255,225,112,1) 5%, rgba(121,9,89,1) 95%)
   padding: 0;
   transition: 250ms ease-in; }
   .horizontal_card h3 {
-    font-size: 22px;
-    font-weight: 700;
+    font-size: 24px;
+    font-weight: bold;
     margin: 0.3rem 0 0.3rem 0; }
   .horizontal_card h4 {
-    font-size: 20px;
-    font-weight: 500;
+    font-size: 22px;
+    font-weight: bold;
     margin: 0.3rem 0 0.3rem 0; }
   .horizontal_card h5 {
     font-weight: normal;
-    font-size: 18px;
+    font-size: 20px;
     margin: 0.3rem 0 0.3rem 0; }
   .horizontal_card h6 {
     font-weight: normal;
-    font-size: 16px;
+    font-size: 18px;
     margin: 0.3rem 0 0.3rem 0; }
   .horizontal_card p {
-    font-size: 16px;
-    color: #aaa;
+    font-size: 18px;
+    color: #ececec;
     margin: 0.3rem 0 0.3rem 0; }
   .horizontal_card ul li {
-    font-size: 15px; }
+    font-size: 18px; }
 
 .horizontal_card_img_cover {
   display: flex;
@@ -324,9 +332,17 @@ background: linear-gradient(90deg, rgba(255,225,112,1) 5%, rgba(121,9,89,1) 95%)
       font-size: 20px;
       font-weight: bold;
       margin: 0.3rem 0 0.3rem 0; }
+    .horizontal_card h4 {
+      font-size: 18px;
+      font-weight: bold;
+      margin: 0.3rem 0 0.3rem 0; }
     .horizontal_card h5 {
       font-weight: normal;
       font-size: 16px;
+      margin: 0.3rem 0 0.3rem 0; }
+    .horizontal_card h6 {
+      font-weight: normal;
+      font-size: 14px;
       margin: 0.3rem 0 0.3rem 0; }
     .horizontal_card p {
       font-size: 14px;
@@ -708,6 +724,7 @@ background: linear-gradient(90deg, rgba(255,225,112,1) 5%, rgba(121,9,89,1) 95%)
     margin: 0.5rem 0; }
 
 .home-header-section {
+  font-size: 1.1rem;
   margin: 1rem; }
 
 .home-section {
@@ -744,7 +761,7 @@ background: linear-gradient(90deg, rgba(255,225,112,1) 5%, rgba(121,9,89,1) 95%)
 
 .logo-link {
   color: #f0f0f0;
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   font-weight: bold;
   margin: 0;
   padding: 0; }
@@ -915,11 +932,19 @@ background: linear-gradient(90deg, rgba(255,225,112,1) 5%, rgba(121,9,89,1) 95%)
 background: rgb(255,225,112);
 background: linear-gradient(90deg, rgba(255,225,112,1) 5%, rgba(121,9,89,1) 95%);
 */
+.link {
+  color: #f0f0f0;
+  font-size: 1.4rem;
+  transition: 0.3s;
+  text-decoration: none; }
+  .link:hover {
+    color: #7c90ff; }
+
 .social_links {
   transition: 400s; }
   .social_links a {
     color: #f0f0f0;
-    font-size: 1.6rem;
+    font-size: 1rem;
     transition: 0.3s; }
     .social_links a:hover {
       color: #7c90ff; }
