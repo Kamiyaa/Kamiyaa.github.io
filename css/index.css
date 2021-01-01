@@ -942,7 +942,7 @@ background: linear-gradient(90deg, rgba(255,225,112,1) 5%, rgba(121,9,89,1) 95%)
   transition: 400s; }
   .social_links a {
     color: #f0f0f0;
-    font-size: 1rem;
+    font-size: 1.5rem;
     transition: 0.3s; }
     .social_links a:hover {
       color: #7c90ff; }
@@ -954,7 +954,6 @@ background: linear-gradient(90deg, rgba(255,225,112,1) 5%, rgba(121,9,89,1) 95%)
 
 .social-icon {
   color: inherit;
-  font-size: 26px;
   transition: 0.3s; }
   .social-icon:hover .social-icon:visited:hover {
     color: #7c90ff; }
