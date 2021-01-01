@@ -685,6 +685,7 @@ background: linear-gradient(90deg, rgba(255,225,112,1) 5%, rgba(121,9,89,1) 95%)
   width: 100%; }
 
 .horizontal_card_header {
+  align-items: center;
   display: flex;
   flex-direction: row;
   justify-content: flex-start; }
