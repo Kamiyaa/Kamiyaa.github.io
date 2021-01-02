@@ -103,7 +103,10 @@ background: linear-gradient(90deg, rgba(255,225,112,1) 5%, rgba(121,9,89,1) 95%)
     font-size: 1.1rem; }
   .article a {
     color: #7c90ff;
-    text-decoration: none; }
+    text-decoration: none;
+    transition: 0.3s; }
+    .article a:hover {
+      color: #a0c5e7; }
 
 @media only screen and (max-width: 700px) {
   .article {
@@ -165,6 +168,21 @@ body {
   display: none;
   padding: 1rem; }
 
+.base {
+  align-items: flex-start;
+  color: #ececec;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-family: "Fira Sans", sans serif;
+  margin: 0;
+  padding: 0; }
+  .base ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+  .base li {
+    margin: 0.5rem 0; }
+
 /*
 background: rgb(255,225,112);
 background: linear-gradient(90deg, rgba(255,225,112,1) 5%, rgba(121,9,89,1) 95%);
@@ -196,12 +214,13 @@ background: linear-gradient(90deg, rgba(255,225,112,1) 5%, rgba(121,9,89,1) 95%)
   margin: 2rem 0 0 0;
   padding: 1rem 2rem 2rem 2rem; }
   .footer a {
-    padding: 0px;
-    text-decoration: none; }
+    color: #7c90ff;
+    text-decoration: none;
+    transition: 0.3s; }
     .footer a:hover {
       color: #a0c5e7; }
   .footer ul {
-    margin: 0.8rem;
+    margin: 0;
     padding: 0;
     list-style: none; }
   .footer li {
@@ -504,21 +523,6 @@ background: linear-gradient(90deg, rgba(255,225,112,1) 5%, rgba(121,9,89,1) 95%)
 background: rgb(255,225,112);
 background: linear-gradient(90deg, rgba(255,225,112,1) 5%, rgba(121,9,89,1) 95%);
 */
-.home {
-  align-items: flex-start;
-  color: #ececec;
-  flex-direction: column;
-  flex-wrap: wrap;
-  font-family: "Fira Sans", sans serif;
-  margin: 0;
-  padding: 0; }
-  .home ul {
-    margin: 0;
-    padding: 0;
-    list-style: none; }
-  .home li {
-    margin: 0.5rem 0; }
-
 .home-header {
   align-items: flex-start;
   color: #ececec;
@@ -527,8 +531,7 @@ background: linear-gradient(90deg, rgba(255,225,112,1) 5%, rgba(121,9,89,1) 95%)
   flex-wrap: wrap;
   font-family: "Fira Sans", sans serif;
   justify-content: space-around;
-  margin: 0 3rem;
-  padding: 2rem 0 0 0; }
+  padding: 2rem 3rem 0 3rem; }
   .home-header ul {
     margin: 1rem 0;
     padding: 0;
@@ -538,7 +541,7 @@ background: linear-gradient(90deg, rgba(255,225,112,1) 5%, rgba(121,9,89,1) 95%)
 
 @media only screen and (max-width: 700px) {
   .home-header {
-    margin: 0 1rem; } }
+    padding: 2rem 1rem 0 1rem; } }
 
 .home-header-section {
   font-size: 1.1rem;
@@ -546,14 +549,14 @@ background: linear-gradient(90deg, rgba(255,225,112,1) 5%, rgba(121,9,89,1) 95%)
 
 .home-section {
   display: flex;
-  margin: 0 3rem;
+  padding: 0 3rem;
   overflow-x: auto; }
   .home-section h2 {
     font-weight: 700; }
 
 @media only screen and (max-width: 700px) {
   .home-section {
-    margin: 0 1rem; } }
+    padding: 0 1rem; } }
 
 .home-link {
   color: inherit;
