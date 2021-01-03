@@ -567,11 +567,11 @@ async function init(input) {
         var ret = makeMutClosure(arg0, arg1, 352, __wbg_adapter_22);
         return addHeapObject(ret);
     };
-    imports.wbg.__wbindgen_closure_wrapper907 = function(arg0, arg1, arg2) {
+    imports.wbg.__wbindgen_closure_wrapper908 = function(arg0, arg1, arg2) {
         var ret = makeMutClosure(arg0, arg1, 446, __wbg_adapter_25);
         return addHeapObject(ret);
     };
-    imports.wbg.__wbindgen_closure_wrapper954 = function(arg0, arg1, arg2) {
+    imports.wbg.__wbindgen_closure_wrapper955 = function(arg0, arg1, arg2) {
         var ret = makeMutClosure(arg0, arg1, 462, __wbg_adapter_28);
         return addHeapObject(ret);
     };
