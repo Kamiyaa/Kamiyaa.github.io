@@ -8,6 +8,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
 @keyframes fade-in {
   from {
     opacity: 0; }
@@ -746,6 +747,25 @@ background: linear-gradient(90deg, rgba(255,225,112,1) 5%, rgba(121,9,89,1) 95%)
   color: #ececec;
   padding: 0.4rem 0.6rem; }
 
+/*
+background: rgb(255,225,112);
+background: linear-gradient(90deg, rgba(255,225,112,1) 5%, rgba(121,9,89,1) 95%);
+*/
+.link {
+  color: #f0f0f0;
+  font-size: 1.4rem;
+  transition: 0.3s;
+  text-decoration: none; }
+  .link:hover {
+    color: #7c90ff;
+    text-decoration: inherit; }
+  .link:visited {
+    color: #f0f0f0;
+    text-decoration: inherit; }
+  .link:visited:hover {
+    color: #7c90ff;
+    text-decoration: inherit; }
+
 .menu-strip {
   display: flex; }
 
@@ -882,14 +902,6 @@ background: linear-gradient(90deg, rgba(255,225,112,1) 5%, rgba(121,9,89,1) 95%)
 background: rgb(255,225,112);
 background: linear-gradient(90deg, rgba(255,225,112,1) 5%, rgba(121,9,89,1) 95%);
 */
-.link {
-  color: #f0f0f0;
-  font-size: 1.4rem;
-  transition: 0.3s;
-  text-decoration: none; }
-  .link:hover {
-    color: #7c90ff; }
-
 .social_links {
   transition: 400s; }
   .social_links a {
