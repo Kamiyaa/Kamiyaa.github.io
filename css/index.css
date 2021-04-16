@@ -151,6 +151,7 @@ background: linear-gradient(90deg, rgba(255,225,112,1) 5%, rgba(121,9,89,1) 95%)
 html {
   margin: 0;
   padding: 0;
+  overflow: auto;
   scroll-behavior: smooth;
   z-index: 0; }
 
