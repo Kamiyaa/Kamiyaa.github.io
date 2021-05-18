@@ -828,28 +828,30 @@ background: linear-gradient(90deg, rgba(255,225,112,1) 5%, rgba(121,9,89,1) 95%)
   float: left; }
 
 .project-github {
-  align-items: flex-end;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   margin: 0.4rem 0.4rem; }
-  .project-github a {
-    color: accent-2;
-    transition: 500ms;
-    text-decoration: none; }
-    .project-github a:hover {
-      color: #a0c5e7; }
-    .project-github a:visited:hover {
-      color: #a0c5e7;
-      text-decoration: inherit; }
   .project-github ul {
     display: inline; }
 
 .project-github-icon {
-  margin: 0 0.2rem 0 0.6rem;
+  margin: 0 0.3rem 0 0;
   transition: 400ms; }
   .project-github-icon:hover {
     color: #a0c5e7; }
+
+.project-github-link {
+  color: #a0c5e7;
+  transition: 500ms;
+  text-decoration: none; }
+  .project-github-link:visited {
+    color: #a0c5e7; }
+  .project-github-link:hover {
+    color: #7c90ff; }
+  .project-github-link:visited:hover {
+    color: #7c90ff;
+    text-decoration: inherit; }
 
 #App {
   font-family: sans-serif;
